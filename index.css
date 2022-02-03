@@ -1,0 +1,54 @@
+
+#block
+{
+
+height: 512px;
+width: 512px;
+
+
+background-color: black;
+
+
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.grid
+{
+	height: 62px;
+	width: 62px;
+
+border: 1px solid orange;
+
+	
+	transition-duration: 1s;
+	cursor: pointer;
+	background: green;
+	background-size: 62px;
+}
+
+
+#point
+{
+	color: skyblue;
+
+}
+
+#point:hover
+{
+	color: red;
+}
+
+#start
+{
+	color: green;
+	background-color: red;
+}
+#start:hover
+{
+	color: lightseagreen;
+}
+
+
+
